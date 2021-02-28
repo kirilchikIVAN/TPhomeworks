@@ -1,6 +1,6 @@
 str='*.'$2
 mkdir $3
-for file in `find . -type f -name $str`
+for file in `find $1 -type f -name $str`
 do
    newname=$(basename "$file")
    while [ -e $3/$newname ]
