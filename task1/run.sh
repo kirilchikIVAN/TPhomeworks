@@ -10,5 +10,5 @@ do
 
    cp $file $3/$newname
 done
-tar -cf $(basename "$4" | cut -d. -f1).tar.gz $3
+tar czf $4 $3
 echo 'done'
