@@ -1,5 +1,4 @@
 str='*.'$2
-echo $str
 mkdir $3
 for file in `find . -type f -name $str`
 do
