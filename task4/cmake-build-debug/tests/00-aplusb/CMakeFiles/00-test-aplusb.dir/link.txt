@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -O0 -fprofile-arcs -ftest-coverage --coverage -g  -fprofile-arcs -ftest-coverage CMakeFiles/00-test-aplusb.dir/test.cpp.o -o ../../../bin/00-test-aplusb   -L/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/lib  -Wl,-rpath,/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/lib -lgtest_main -lgtest -lpthread 

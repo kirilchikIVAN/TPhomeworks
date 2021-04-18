@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="02-tree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\00-aplusb\;CMake Files\src\01-simple-library\;CMake Files\src\02-tree\;CMake Files\src\03-weather\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\googletest_repo-prefix\;CMake Files\cmake-build-debug\googletest_repo-prefix\tmp\;CMake Files\cmake-build-debug\cpr_repo-prefix\;CMake Files\cmake-build-debug\cpr_repo-prefix\tmp\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\;CMake Files\cmake\;CMake Files\examples\;CMake Files\tests\;CMake Files\tests\00-aplusb\;CMake Files\tests\01-simple-library\;CMake Files\tests\02-tree\;CMake Files\tests\03-weather\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/lib02-tree.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 02-tree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/lib02-tree.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 02-tree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include/Tree.h">
+			<Option target="02-tree"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/02-tree/Tree.cpp">
+			<Option target="02-tree"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/00-aplusb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\00-aplusb\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/01-simple-library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\01-simple-library\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/02-tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\02-tree\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/03-weather/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\03-weather\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/googletest_repo-prefix/tmp/googletest_repo-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest_repo-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/tmp/cpr_repo-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cpr_repo-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake/CodeCoverage.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/00-aplusb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\00-aplusb\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/01-simple-library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\01-simple-library\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/02-tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\02-tree\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/03-weather/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\03-weather\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

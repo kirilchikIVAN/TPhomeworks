@@ -1,0 +1,54 @@
+/snap/clion/149/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem system 
+Boost libraries are located at /usr/lib/x86_64-linux-gnu
+Boost libraries are Boost::filesystem;Boost::system
+-- Found Python3: /usr/bin/python3.8 (found version "3.8.5") found components: Interpreter 
+0
+Requirement already satisfied: pip in /home/kirilchik/.local/lib/python3.8/site-packages (21.0.1)
+Requirement already satisfied: virtualenv in /home/kirilchik/.local/lib/python3.8/site-packages (20.4.3)
+Requirement already satisfied: filelock<4,>=3.0.0 in /home/kirilchik/.local/lib/python3.8/site-packages (from virtualenv) (3.0.12)
+Requirement already satisfied: appdirs<2,>=1.4.3 in /home/kirilchik/.local/lib/python3.8/site-packages (from virtualenv) (1.4.4)
+Requirement already satisfied: distlib<1,>=0.3.1 in /home/kirilchik/.local/lib/python3.8/site-packages (from virtualenv) (0.3.1)
+Requirement already satisfied: six<2,>=1.9.0 in /usr/lib/python3/dist-packages (from virtualenv) (1.14.0)
+created virtual environment CPython3.8.5.final.0-64 in 455ms
+  creator CPython3Posix(dest=/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/PythonEnvironment, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/kirilchik/.local/share/virtualenv)
+    added seed packages: Jinja2==2.11.3, MarkupSafe==1.1.1, gcovr==4.2, lxml==4.6.3, pip==21.0.1, setuptools==54.1.2, wheel==0.36.2
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Requirement already satisfied: gcovr in ./PythonEnvironment/lib/python3.8/site-packages (4.2)
+Requirement already satisfied: lxml in ./PythonEnvironment/lib/python3.8/site-packages (from gcovr) (4.6.3)
+Requirement already satisfied: jinja2 in ./PythonEnvironment/lib/python3.8/site-packages (from gcovr) (2.11.3)
+Requirement already satisfied: MarkupSafe>=0.23 in ./PythonEnvironment/lib/python3.8/site-packages (from jinja2->gcovr) (1.1.1)
+-- The C compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+INFO/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/01-simple-library/Functions.cpp
+INFOtestsourcesAddTestCase.hAddTestCase.cppLeapTestCase.cppLeapTestCase.h
+INFOsources/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/01-simple-library/Functions.cpp
+INFO/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/02-tree/Tree.cpp
+INFOtestsourcesTreeTestCase.hTreeTestCase.cpp
+INFOsources/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/02-tree/Tree.cpp
+INFO/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/03-weather/Weather.cpp
+INFOtestsourcesWeatherTestCase.hWeatherTestCase.cppWeatherMock.hWeatherMock.cpp
+INFOsources/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/03-weather/Weather.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug

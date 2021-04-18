@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Testing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\00-aplusb\;CMake Files\src\01-simple-library\;CMake Files\src\02-tree\;CMake Files\src\03-weather\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\googletest_repo-prefix\;CMake Files\cmake-build-debug\googletest_repo-prefix\tmp\;CMake Files\cmake-build-debug\cpr_repo-prefix\;CMake Files\cmake-build-debug\cpr_repo-prefix\tmp\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\;CMake Files\cmake\;CMake Files\examples\;CMake Files\tests\;CMake Files\tests\00-aplusb\;CMake Files\tests\01-simple-library\;CMake Files\tests\02-tree\;CMake Files\tests\03-weather\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="googletest_repo">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 googletest_repo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coverage_report">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 coverage_report"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpr_repo">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpr_repo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-simple-library">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/lib01-simple-library.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/Makefile&quot;  VERBOSE=1 01-simple-library"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-simple-library/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/lib01-simple-library.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/Makefile&quot;  VERBOSE=1 01-simple-library/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/lib02-tree.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 02-tree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/lib02-tree.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 02-tree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-weather">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/lib03-weather.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/Makefile&quot;  VERBOSE=1 03-weather"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-weather/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/lib03-weather.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/Makefile&quot;  VERBOSE=1 03-weather/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/src/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-simple-library-bin">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/01-simple-library-bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 01-simple-library-bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-simple-library-bin/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/01-simple-library-bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 01-simple-library-bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree-bin">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/02-tree-bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 02-tree-bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree-bin/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/02-tree-bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 02-tree-bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00-aplusb-bin">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/00-aplusb-bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 00-aplusb-bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00-aplusb-bin/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/00-aplusb-bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 00-aplusb-bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-weather-bin">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/03-weather-bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 03-weather-bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-weather-bin/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/03-weather-bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 03-weather-bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00-test-aplusb">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/00-test-aplusb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 00-test-aplusb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00-test-aplusb/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/00-test-aplusb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 00-test-aplusb/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00-coverage-aplusb_xml">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 00-coverage-aplusb_xml"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00-coverage-aplusb_html">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 00-coverage-aplusb_html"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00-coverage-aplusb">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 00-coverage-aplusb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/00-aplusb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-simple-library-test">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/01-simple-library-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 01-simple-library-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-simple-library-test/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/01-simple-library-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 01-simple-library-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-coverage-simple-library_html">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 01-coverage-simple-library_html"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-coverage-simple-library">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 01-coverage-simple-library"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-coverage-simple-library_xml">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 01-coverage-simple-library_xml"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/01-simple-library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree-test">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/02-tree-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 02-tree-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree-test/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/02-tree-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 02-tree-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-coverage-tree_xml">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 02-coverage-tree_xml"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-coverage-tree_html">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 02-coverage-tree_html"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-coverage-tree">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 02-coverage-tree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-weather-test">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/03-weather-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 03-weather-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-weather-test/fast">
+				<Option output="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin/03-weather-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty/include"/>
+					<Add directory="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 03-weather-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-coverage-weather_xml">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 03-coverage-weather_xml"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-coverage-weather">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 03-coverage-weather"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-coverage-weather_html">
+				<Option working_dir="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 03-coverage-weather_html"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/tests/03-weather/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/examples/00-main.cpp">
+			<Option target="00-aplusb-bin"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/examples/01-main.cpp">
+			<Option target="01-simple-library-bin"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/examples/02-main.cpp">
+			<Option target="02-tree-bin"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/examples/03-main.cpp">
+			<Option target="03-weather-bin"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include/Functions.h">
+			<Option target="01-simple-library"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include/Tree.h">
+			<Option target="02-tree"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/include/Weather.h">
+			<Option target="03-weather"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/01-simple-library/Functions.cpp">
+			<Option target="01-simple-library"/>
+			<Option target="01-simple-library-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/02-tree/Tree.cpp">
+			<Option target="02-tree"/>
+			<Option target="02-tree-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/03-weather/Weather.cpp">
+			<Option target="03-weather"/>
+			<Option target="03-weather-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/00-aplusb/test.cpp">
+			<Option target="00-test-aplusb"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/01-simple-library/AddTestCase.cpp">
+			<Option target="01-simple-library-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/01-simple-library/AddTestCase.h">
+			<Option target="01-simple-library-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/01-simple-library/LeapTestCase.cpp">
+			<Option target="01-simple-library-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/01-simple-library/LeapTestCase.h">
+			<Option target="01-simple-library-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/02-tree/TreeTestCase.cpp">
+			<Option target="02-tree-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/02-tree/TreeTestCase.h">
+			<Option target="02-tree-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/03-weather/WeatherMock.cpp">
+			<Option target="03-weather-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/03-weather/WeatherMock.h">
+			<Option target="03-weather-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/03-weather/WeatherTestCase.cpp">
+			<Option target="03-weather-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/03-weather/WeatherTestCase.h">
+			<Option target="03-weather-test"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/00-aplusb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\00-aplusb\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/01-simple-library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\01-simple-library\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/02-tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\02-tree\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/src/03-weather/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\03-weather\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/googletest_repo-prefix/tmp/googletest_repo-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest_repo-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/tmp/cpr_repo-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cpr_repo-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake/CodeCoverage.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/00-aplusb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\00-aplusb\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/01-simple-library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\01-simple-library\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/02-tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\02-tree\"/>
+		</Unit>
+		<Unit filename="/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/tests/03-weather/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\03-weather\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

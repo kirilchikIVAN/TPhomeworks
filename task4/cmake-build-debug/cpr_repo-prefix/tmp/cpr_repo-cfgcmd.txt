@@ -1,0 +1,1 @@
+cmd='/snap/clion/149/bin/cmake/linux/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/3rdparty;-DCMAKE_CXX_STANDARD=14;-DCMAKE_POSITION_INDEPENDENT_CODE=ON;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
