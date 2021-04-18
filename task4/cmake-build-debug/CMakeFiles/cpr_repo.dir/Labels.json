@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/CMakeFiles/cpr_repo"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/CMakeFiles/cpr_repo.rule"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/CMakeFiles/cpr_repo-complete.rule"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-install.rule"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-mkdir.rule"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-download.rule"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-update.rule"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-patch.rule"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-configure.rule"
+		},
+		{
+			"file" : "/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpr_repo"
+		],
+		"name" : "cpr_repo"
+	}
+}

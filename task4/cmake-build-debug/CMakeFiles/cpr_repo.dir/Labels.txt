@@ -1,0 +1,13 @@
+# Target labels
+ cpr_repo
+# Source files and their labels
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/CMakeFiles/cpr_repo
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/CMakeFiles/cpr_repo.rule
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/CMakeFiles/cpr_repo-complete.rule
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-install.rule
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-mkdir.rule
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-download.rule
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-update.rule
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-patch.rule
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-configure.rule
+/home/kirilchik/TechProg/Task4/GIT/TPhomeworks/task4/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-build.rule
